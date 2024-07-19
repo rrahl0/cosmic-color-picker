@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>me.pixeldoted.CosmicColorPicker</id>
+  <id>me.pixeldoted.CosmicExtColorPicker</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-only</project_license>
   <project_group>COSMIC</project_group>
@@ -8,12 +8,12 @@
   <update_contact></update_contact>
   <url type="homepage"></url>
   <url type="bugtracker"></url>
-  <name>COSMIC Color Picker</name>
+  <name>COSMIC Ext Color Picker</name>
   <summary>A color picker for COSMIC</summary>
   <description>
     <p>A color picker for COSMIC</p>
   </description>
-  <launchable type="desktop-id">me.pixeldoted.CosmicColorPicker.desktop</launchable>
+  <launchable type="desktop-id">me.pixeldoted.CosmicExtColorPicker.desktop</launchable>
   <icon type="remote" height="256" width="256">https://raw.githubusercontent.com/pixeldoted/cosmic-color-picker/master/res/icons/hicolor/256x256/apps/me.pixeldoted.CosmicColorPicker.svg</icon>
   <screenshots>
   </screenshots>
@@ -22,7 +22,7 @@
       <mimetype>text/plain</mimetype>
     </mimetypes>
     <binaries>
-      <binary>cosmic-color-picker</binary>
+      <binary>cosmic-ext-color-picker</binary>
     </binaries>
   </provides>
 </component>
