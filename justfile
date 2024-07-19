@@ -1,5 +1,5 @@
-name := 'cosmic-color-picker'
-export APPID := 'me.pixeldoted.CosmicColorPicker'
+name := 'cosmic-ext-color-picker'
+export APPID := 'me.pixeldoted.CosmicExtColorPicker'
 
 rootdir := ''
 prefix := '/usr'

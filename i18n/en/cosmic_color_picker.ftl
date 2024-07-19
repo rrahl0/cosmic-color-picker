@@ -1,4 +1,4 @@
-app-title = COSMIC Color Picker
+app-title = COSMIC Ext Color Picker
 
 ## Menu
 view = View

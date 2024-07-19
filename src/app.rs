@@ -70,7 +70,7 @@ impl Application for ColorPicker {
 
     type Message = Message;
 
-    const APP_ID: &'static str = "me.pixeldoted.CosmicColorPicker";
+    const APP_ID: &'static str = "me.pixeldoted.CosmicExtColorPicker";
 
     fn core(&self) -> &Core {
         &self.core
@@ -339,7 +339,7 @@ impl ColorPicker {
         widget::column::with_capacity(4)
             .push(widget::svg(widget::svg::Handle::from_memory(
                 &include_bytes!(
-                    "../res/icons/hicolor/128x128/apps/me.pixeldoted.CosmicColorPicker.svg"
+                    "../res/icons/hicolor/128x128/apps/me.pixeldoted.CosmicExtColorPicker.svg"
                 )[..],
             )))
             .push(widget::text::title3(fl!("app-title")))
